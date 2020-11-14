@@ -1,21 +1,100 @@
-* {
-  font-family: Arial, Helvetica, sans-serif;
+@font-face {
+  font-family: woodburnbold;
+  src: url("fonts/WoobBurn-Bold.woff");
+  
 }
 
-html, body {
-  margin: 0;
-  border: 0;
-  padding: 0;
-  background-color: #fff;
+@font-face {
+  font-family: woodburn;
+  src: url("fonts/WoobBurn-Regular.woff");
+  
 }
 
-main {
-  margin: auto;
-  width: 50%;
-  padding: 20px;
+body{
+  background-color: rgb(40,40,40);
 }
 
-main > h1 {
-  text-align: center;
-  font-size: 3.5em;
+div#main {
+  border:0px;
+  margin: 30px auto;
+  padding:0px;
+  height:1600px;
+  width:2056px;
+  background-image: url("img/DeskBackground.png");
+  position:relative;
+}
+
+h1, h2{
+  color: #000;
+  text-shadow: 0px 0px 5px #A66B38;
+}
+
+h1 {
+  font-family: woodburnbold;
+  font-size: 50px;
+  position: absolute;;
+  top:80px;
+  left:90px;
+}
+
+h2 {
+  font-family: woodburn;
+  text-transform: uppercase;
+  font-size: 40px;
+  position: absolute;
+  top:140px;
+  left:300px;
+  
+}
+
+#maplinks{
+  position: absolute;
+  top:100px;
+  left:565px;
+  display:block;
+  list-style: none;
+  font-family: ff-providence-sans-web-pro, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+#maplinks #mapheader{
+  font-size: 24px;
+  text-decoration: underline;
+  margin-bottom: 8px;
+}
+
+#maplinks a{
+  font-size: 24px;
+  margin-bottom: 5px;
+  text-decoration: none;
+  display: list-item;
+  color:#000;
+}
+
+#maplinks a:hover{
+  color:#b7410e;
+}
+
+#dailynews{
+  display: block;
+  position: absolute;
+  top:437px;
+  left:52px;
+}
+
+#dailynews img{
+  height:1099px;
+  width:846px;
+  position:relative;
+  top:0px;
+  left:0px;
+}
+
+#dailynews img:hover{
+  height:1143px;
+  width:912px;
+  position:relative;
+  top:-22px;
+  left:-18px;
 }
