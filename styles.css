@@ -98,3 +98,36 @@ h1, h2{
   top:-22px;
   left:-18px;
 }
+
+#prospetorsjournal{
+  font-family: jinky,sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 40px;
+  margin: 30px auto;
+}
+
+#prospetorsjournal ol{
+  width:1375px;
+  display:block;
+  margin: 30px auto;
+}
+
+#prospetorsjournal span.norm  {
+  font-family: ff-providence-sans-web-pro, sans-serif;
+  font-size: 30px;
+
+}
+
+#prospetorsjournal li#page1{
+  display: block;
+  height: 775px;
+  width:1225px;
+  padding:75px;
+  padding-right:115px;
+  background-image: url("img/paperbook.png");
+}
+
+#prospetorsjournal li#page1 p{
+  margin-bottom: 15px;
+}
